@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Color de fondo pastel */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #4a4e69; /* Color pastel oscuro */
+    text-align: center;
+}
+
+.anime-list {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #e9eff6; /* Color de fondo pastel para la lista */
+}
+
+.anime-item {
+    padding: 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.anime-item:last-child {
+    border-bottom: none; /* Elimina el borde del último elemento */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4a90e2; /* Botón azul pastel */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357ab7; /* Color más oscuro al pasar el mouse */
+}

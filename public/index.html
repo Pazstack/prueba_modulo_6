@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <title>Lista de Animes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Animes</h1>
+        <div id="anime-list" class="anime-list"></div>
+        
+        <h2>Agregar Nuevo Anime</h2>
+        <form id="anime-form">
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="text" id="genero" placeholder="Género" required>
+            <input type="text" id="año" placeholder="Año" required>
+            <input type="text" id="autor" placeholder="Autor" required>
+            <button type="submit">Agregar Anime</button>
+        </form>
+    </div>
+
+    <script src="/public/index.js"></script>
+</body>
+</html>
